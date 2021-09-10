@@ -1,0 +1,128 @@
+body{
+    background: FFE8E1;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+h1{
+    color: pink;
+    
+}
+
+p{
+   color: slategray; 
+}
+
+h2{
+    color: mediumaquamarine;
+}
+ 
+.title{
+    text-align: center;
+    background-color: black;
+}
+
+.welcome{
+    color: hotpink;
+    padding: 15px;
+    background-color: white;
+}
+
+.me{
+    text-align: right;
+}
+
+.logos img{
+    width: 100px;
+}
+
+.languages{
+    font-size: 25px;
+}
+
+.project{
+    width: 350px;
+}
+
+.top{
+    margin: 0;
+    list-style-type: none;
+    height: auto;
+    border: 1px solid #555;
+    width: 100%;
+    background-color: mediumaquamarine;
+    top: 0;
+    overflow: hidden;
+}
+
+li a {
+    float: left;
+    display: block;
+    font-weight: bolder;
+    color: aliceblue;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+li a.selected{
+    background-color: slategray;
+}
+
+li a:hover:not(.selected) {
+    background-color: lightpink;
+}
+li:last-nav{
+    border-bottom: none;
+}
+  
+section{
+    background-color: 555
+}
+
+.me-description{
+    background-color: black;
+    padding: 75px;
+    border: 1px solid #555;
+    border-bottom: none;
+}
+#skills{
+    font-size: large;
+}
+.coding-languages{
+    background-color: lightpink;
+    padding: 75px;
+    border: 1.5px solid #555; 
+    border-bottom: none;
+}
+.coding-projects{
+    background-color: black;
+    padding: 75px;
+    border-left: 1.5px solid #555;
+    border-right: 1px solid #555;
+}
+
+.contact-info{
+    padding-top: 50px;
+    border: 1.5px solid #555; 
+    border-bottom: none; 
+}
+
+#projects{
+    font-size: 35px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 26px 39px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". ."
+      ". .";
+  }
+  
+
+
