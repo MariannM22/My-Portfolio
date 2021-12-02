@@ -103,6 +103,10 @@ section{
     padding: 75px;
     border-left: 1.5px solid #555;
     border-right: 1px solid #555;
+    
+}
+.coding-projects:hover{
+    background-color:hotpink;
 }
 
 .contact-info{
