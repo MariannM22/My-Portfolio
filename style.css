@@ -38,6 +38,11 @@ h2{
     height: 100px;
 }
 
+#logos img{
+    width: 100px;
+    height: 100px;
+}
+
 .languages{
     font-size: 25px;
 }
