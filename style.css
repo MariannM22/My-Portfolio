@@ -39,7 +39,7 @@ h2{
 }
 
 #logos img{
-    width: 100px;
+    width: 125px;
     height: 100px;
 }
 
@@ -51,9 +51,7 @@ h2{
     width: 350px;
 }
 
-#small-pic{
-    150px
-}
+
 
 .top{
     position: sticky;
@@ -100,7 +98,7 @@ section{
     border-bottom: none;
 }
 #skills{
-    font-size: 35px;
+    font-size: 32px;
 }
 .coding-languages{
     background-color: lightpink;
