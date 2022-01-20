@@ -10,10 +10,6 @@ h1{
     
 }
 
-.custom{
-    width; 150px;
-}
-
 a:link {
   text-decoration: none;
 }
@@ -148,5 +144,9 @@ section{
       ". . ."
       ". . .";
   }
+
+.custom{
+    width; 150px;
+}
 
 
