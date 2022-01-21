@@ -124,22 +124,6 @@ section{
     font-size: 35px;
 }
 
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-   .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 26px 39px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      ". ."
-      ". .";
-  }
-
-    
  .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -149,6 +133,24 @@ section{
       ". . ."
       ". . .";
   }
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 26px 39px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          ". ."
+          ". .";
+    }
+
+
+
 
 
 
