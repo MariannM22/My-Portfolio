@@ -133,6 +133,13 @@ section{
       ". ."
       ". .";
   }
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+    
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
