@@ -136,7 +136,10 @@ section{
 
 @media screen and (max-width: 600px) {
     .column{
-         width: 100%;
+        width: 100%;
+    }
+    
+    
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr;
