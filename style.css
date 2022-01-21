@@ -134,7 +134,7 @@ section{
       ". . .";
   }
 
-@media screen and (min-width: 300px) {
+@media screen and (max-width: 100px) {
     .column{
         width: 100%;
     }
