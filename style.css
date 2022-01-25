@@ -39,8 +39,12 @@ h2{
     text-align: right;
 }
 
-#logos img{
+#skill-logos img{
     height: 100px;
+}
+
+#contact-logos img{
+    height:125px
 }
 
 .languages{
