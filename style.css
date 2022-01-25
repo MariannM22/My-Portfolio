@@ -44,7 +44,7 @@ h2{
 }
 
 #contact-logos img{
-    height:125px
+    height: 125px;
 }
 
 .languages{
@@ -116,10 +116,6 @@ section{
     border-left: 1.5px solid #555;
     border-right: 1px solid #555;
     
-}
-
-.linked-in{
-    height: 135px;
 }
 
 .contact-info{
