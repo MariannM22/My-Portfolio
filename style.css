@@ -27,6 +27,9 @@ h2{
 .title{
     text-align: center;
     background-color: black;
+    padding: 0px;
+    border: 5px solid gray;
+    margin: 0;
 }
 
 .welcome{
@@ -44,7 +47,7 @@ h2{
 }
 
 #contact-logos img{
-    height: 125px;
+    height: 200px;
 }
 
 .languages{
@@ -80,13 +83,16 @@ li a {
     border-bottom: 1px solid #555;
 }
 
-li a.selected{
-    background-color: slategray;
-}
 
 li a:hover:not(.selected) {
     background-color: lightpink;
 }
+li a:active {background-color: lightpink} 
+
+/* li a.selected {
+    background-color: lightpink;
+} */
+
 li:last-nav{
     border-bottom: none;
 }
@@ -96,7 +102,7 @@ section{
 }
 
 .linked-in{
-    font-size 100px;
+    height: 50px;
 }
 
 .me-description{
@@ -157,7 +163,14 @@ section{
         grid-template-areas:
           ". ."
           ". .";
-    }
+    }}
+
+
+
+
+
+
+
 
 
 
