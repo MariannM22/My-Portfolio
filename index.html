@@ -1,118 +1,264 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Mariann's Portfolio</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
-    <script src="main.js"></script>
-</head>
-<body>
-<div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <li><a href ="#about">About Me</a></li>
-    <li><a href = "#skills">Skills</a></li>
-    <li><a href = "#projects">Projects</a></li>
-    <li class = "last-nav"><a href = "#contacts">Contact Me!</a></li>
-</div>
-<div id = "main" class = "main">
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-
-<div class="title-page" ></div>
-    <div class = "intro">
-    <h1>Mariann McCord</h1>
-    <!-- <img class = "me" src = "images/pic-of-mee.JPEG" alt = "picture of author"> -->
-    <h2>Full Stack Software Developer</h2>
-    <h3></h3>
+<html lang="EN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mariann's Portfolio</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contacts">Contact</a>
     </div>
 
-<section class=  "me-description">
-        <h2 id = "about">About Me</h2>
-    <p>My name is <strong>Mariann McCord</strong> ,and I'm from a small town called Charleston.</p>
-    <p>I attended Charleston High School ,and I currently live in Oxford MS and go to school in Water Valley MS.</p>
-    <p>I attend <a href = "https://basecampcodingacademy.org/" rel="noreferrer noopener" target = "_blank" style = "color: hotpink"> Base Camp Coding Academy </a>, where I am developing my skills as a software developer.</p>
-    <p> There I am learning all the materials that I will need to be a full stack developer and compete in the technology industry.</p>
-    <p> Outside of school, I also work part-time and in my free-time I enjoy reading, watching tv, and shopping.</p>
-</section> 
-<hr>
-<section class ="coding-languages" >
-<p id = "skills"><strong>Skills</strong></p>
-
-    <div id="skill-logos" class ="grid-container">
-	<div> 
-	    <p class = "languages" ><strong>Python</strong></p>
-	    <img src="images/python-image.png" alt ="python">
-    	</div>
-	<div> 
-	    <p class = "languages" ><strong>HTML</strong></p>
-	    <img src="images/html-logo.png" style = "width: 115px"  alt="html">
-	</div>
-	<div> 
-	    <p class = "languages"><strong>CSS</strong></p>
-	    <img src="images/css-logo.png" alt="css">
-	</div>
-	<div>
-	    <p class = "languages"><strong>Javascript</strong></p>
-	    <img src="images/javascript-logo.png" alt ="javascript">
-	</div>
-	<div> 
-	    <p class = "languages"><strong>Java</strong></p>
-	     <img src="images/java-logo.png" alt ="java">
-	</div>
-	<div>
-	    <p class = "languages"><strong>Django</strong></p>
-	    <img src="images/django-logo.png" alt ="django">
-	</div>
-	<div>
-	    <p class = "languages" ><strong>Spring</strong></p>
-	    <img src="images/spring-logo.png" alt ="spring">
-	</div>
-	<div>
-	    <p class = "languages"><strong>Git</strong></p>
-	    <img src="images/git-logo.png" alt ="git">
-	</div>	
-    <div>
-	    <p class = "languages"><strong>SQL</strong></p>
-	    <img src="images/sql-logo.png" alt ="sql">
-	</div>
-    
-     </div>
-</section>
-<hr>
-<section class = "coding-projects">
-    <h2 id = "projects">Projects</h2>
-<div class="container">
-    <div class = "column">
-        <p>The GOAT</p>
-        <a href = "https://Nicki-Fanpage.mariannmccord.repl.co" rel="noreferrer noopener" target="_blank"> <img class = "project" src ="images/Nicki-Fanpage.png" alt ="Project about nicki minaj"></a>
-        <p>Languages used: HTML, CSS</p>
-        <p>This is my first project using HTML and CSS.</p>
-    </div>    
-    <div class = "column">
-        <p>Librarian Mariann</p>
-        <a href = "https://github.com/MariannM22/Library.git" rel="noreferrer noopener" target="_blank"> <img class = "project" src ="images/library-pic.png" alt ="Library Project"></a>
-        <p>Languages used: Python</p>
-        <p>This is a python project that exhibits the functions of a library.</p>
+    <div id="main">
+      <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+        >&#9776;</span
+      >
+      <div class="title-page"></div>
+      <div class="intro">
+        <h1>Mariann McCord</h1>
+        <h2>Full Stack Software Developer</h2>
+      </div>
     </div>
-    <div class = "column">
-        <p>Cars-A-Lot</p>
-        <a href = "https://JS-Unit-Project.quintonsummerfo.repl.co" rel="noreferrer noopener" target="_blank"> <img class = "project" src ="images/car-dealership-pic.png" alt ="Car Dealership"></a>
-        <p>Languages used: HTML, CSS, Javascript</p>
-        <p>This is my first project working with Javascript. For this project I worked with a partner.</p>
-    </div>
+    <section>
+      <h2 id="about">About Me</h2>
+      <p>
+        My name is <strong>Mariann McCord</strong> ,and I'm from a small town
+        called Charleston.
+      </p>
+      <p>
+        I attended Charleston High School ,and I currently live in Oxford MS and
+        go to school in Water Valley MS.
+      </p>
+      <p>
+        I attend
+        <a
+          href="https://basecampcodingacademy.org/"
+          rel="noreferrer noopener"
+          target="_blank"
+          style="color: hotpink"
+        >
+          Base Camp Coding Academy </a
+        >, where I am developing my skills as a software developer.
+      </p>
+      <p>
+        There I am learning all the materials that I will need to be a full
+        stack developer and compete in the technology industry.
+      </p>
+      <p>
+        Outside of school, I also work part-time and in my free-time I enjoy
+        reading, watching tv, and shopping.
+      </p>
+    </section>
 
-</div>
-</section>  
-<section class = "contact-info">
-    <h2 id = "contacts">Let's Talk!</h2>
-    <div id ="contact-logos">
-    <a href = "mailto:mccordmariann95@gmail.com" rel="noreferrer noopener" target="_blank"> <img src="images/new-email-logo.png" alt ="email-logo" href = "mailto:mccordmariann95@gmail.com" rel="noreferrer noopener" target="_blank"></a>
-    <a href = "www.linkedin.com/in/mariann-mccord-" rel="noreferrer noopener" target="_blank"><img class = "linked-in" src="images/linked-in-black.png" alt ="linkedin-logo"></a>
-    <a href = "https://github.com/" rel="noreferrer noopener" target="_blank"><img src="images/new-github-logo.png" alt ="github-logo"></a>
-    </div>
-</section>
-</div>
-</body>
+    <section>
+      <div id="skills" class="coding-languages">
+        <h2>Skills</h2>
 
+        <div class="column">
+          <div class="language-box">
+            <img src="images/python-image.png" alt="python" />
+            <div class="language-container">
+              <h4><b>Python</b></h4>
+            </div>
+            <!---language-container-->
+          </div>
+          <!---language-box-->
+        </div>
+
+        <!---column-->
+        <div class="column">
+          <div class="language-box">
+            <img src="images/html-logo.png" alt="html" />
+            <div class="language-container">
+              <h4><b>HTML</b></h4>
+            </div>
+            <!---language-container-->
+          </div>
+          <!---language-box-->
+        </div>
+        <!---column-->
+
+        <div class="column">
+          <div class="language-box">
+            <img src="images/css-logo.png" alt="css" />
+            <div class="language-container">
+              <h4><b>CSS</b></h4>
+            </div>
+            <!---language-container-->
+          </div>
+          <!---language-box-->
+        </div>
+        <!---column-->
+
+        <div class="column">
+          <div class="language-box">
+            <img src="images/javascript-logo.png" alt="javascript" />
+            <div class="language-container">
+              <h4><b>Javascript</b></h4>
+            </div>
+            <!---language-container-->
+          </div>
+          <!---language-box-->
+        </div>
+        <!---column-->
+
+        <div class="column">
+          <div class="language-box">
+            <img src="images/java-logo.png" alt="java" />
+            <div class="language-container">
+              <h4><b>Java</b></h4>
+            </div>
+            <!---language-container-->
+          </div>
+          <!---language-box-->
+        </div>
+        <!---column-->
+
+        <div class="column">
+          <div class="language-box">
+            <img src="images/django-logo.png" alt="django" />
+            <div class="language-container">
+              <h4><b>Django Framework</b></h4>
+            </div>
+            <!---language-container-->
+          </div>
+          <!---language-box-->
+        </div>
+        <!---column-->
+
+        <div class="column">
+          <div class="language-box">
+            <img src="images/spring-logo.png" alt="spring" />
+            <div class="language-container">
+              <h4><b>Spring Framework</b></h4>
+            </div>
+            <!---language-container-->
+          </div>
+          <!---language-box-->
+        </div>
+        <!---column-->
+
+        <div class="column">
+          <div class="language-box">
+            <img src="images/git-logo.png" alt="git" />
+            <div class="language-container">
+              <h4><b>Git</b></h4>
+            </div>
+            <!---language-container-->
+          </div>
+          <!---language-box-->
+        </div>
+        <!---column-->
+
+        <div class="column">
+          <div class="language-box">
+            <img src="images/sql-logo.png" alt="sql" />
+            <div class="language-container">
+              <h4><b>SQL</b></h4>
+            </div>
+            <!---language-container-->
+          </div>
+          <!---language-box-->
+        </div>
+        <!---column-->
+      </div>
+    </section>
+
+    <section>
+      <div id= "projects" class="coding-projects">
+        <h2>Projects</h2>
+
+        <div class="column">
+          <div class="project-box">
+            <img src="images/Nicki-Fanpage.png" alt="Project about nicki minaj" />
+            <div class="project-container">
+              <h4><b>Languages used: HTML, CSS</b></h4>
+              <h4><b>This is my first project using HTML and CSS.</b></h4>
+            </div>
+            <!---project-container-->
+          </div>
+          <!---project-box-->
+        </div>
+
+        <!---column-->
+        <div class="column">
+          <div class="project-box">
+            <img src="images/library-pic.png" alt="Library Project" />
+            <div class="project-container">
+              <h4><b>This is a python project that exhibits the functions of a library.</b></h4>
+            </div>
+            <!---project-container-->
+          </div>
+          <!---project-box-->
+        </div>
+        <!---column-->
+
+        <div class="column">
+          <div class="project-box">
+            <img src="images/car-dealership-pic.png" alt="Car Dealership" />
+            <div class="project-container">
+              <h4><b>Languages used: HTML, CSS, Javascript</b></h4>
+              <h4><b>This is my first project working with Javascript. For this project
+                I worked with a partner.</b></h4>
+            </div>
+            <!---project-container-->
+          </div>
+          <!---project-box-->
+        </div>
+        <!---column-->
+    </section>
+
+    <section>
+      <h2 id="contacts">Let's Talk!</h2>
+      <div>
+        <a
+          href="mailto:mccordmariann95@gmail.com"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          <img
+            src="images/new-email-logo.png"
+            alt="email-logo"
+            href="mailto:mccordmariann95@gmail.com"
+            rel="noreferrer noopener"
+            target="_blank"
+        /></a>
+        <a
+          href="www.linkedin.com/in/mariann-mccord-"
+          rel="noreferrer noopener"
+          target="_blank"
+          ><img
+            class="linked-in"
+            src="images/linked-in-black.png"
+            alt="linkedin-logo"
+        /></a>
+        <a
+          href="https://github.com/"
+          rel="noreferrer noopener"
+          target="_blank"
+          ><img src="images/new-github-logo.png" alt="github-logo"
+        /></a>
+      </div>
+    </section>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
+  </body>
 </html>
