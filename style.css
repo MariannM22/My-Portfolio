@@ -10,6 +10,11 @@ body {
   width: auto;
 }
 
+a{
+  color: hotpink;
+  text-decoration: none;
+}
+
 .sidenav {
   height: 100%;
   width: 0;
